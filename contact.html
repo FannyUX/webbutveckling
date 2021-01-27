@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv"></html>
+
+<html>
+
+       <!-- header -->
+
+    <head> 
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial scale=1,0, maximum scale=1,0">
+
+        <title>fanny ericson</title>
+
+        <link rel="stylesheet" href="Styles/contact.css">
+
+        <script src="Scripts/javascript.js"></script>
+
+    </head>
+     
+  <!-- main content -->  
+
+    <body>
+       
+
+       <div class="header" style="height: 200px;"> 
+
+        <a href="intex.html">fanny ericson</a><br><br>
+
+        <nav>
+
+          <a href="portfolio.html">portfolio</a>
+          <a href="contact.html">contact</a>
+        
+        </nav> 
+
+      </div>  
+
+      <div class="kontakta">Kontakta mig</div>
+        
+      <div class="flex-container">
+        <div>Telefonnummer: 070 000 111 22</div>
+      </div>
+
+      <form onsubmit=sendFeedback(event)>
+
+        <div>
+          <label for="name">Ditt namn:</label>
+          <input type="text" id="name">
+        </div>
+
+        <br>
+
+        <div>
+           <label for="email">Din mailadress:</label>
+           <input type="email" id="email">
+        </div>
+
+        <br>
+
+        <div>
+          <label for="message">Meddelande (valfritt):</label>
+          <textarea id="message" cols="40" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <input type="submit" value="Skicka">
+        
+
+      </form>
+      
+      <h2 id="thankyou"></h2>
+             
+    </body> 
